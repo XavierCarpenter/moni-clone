@@ -26,6 +26,7 @@ nav.scroll {
   background-color: #fff;
   color: #7474c1;
   border-bottom: solid 1.5px #a4d65e;
+  
 }
 nav ul {
   width: 100%;
@@ -48,6 +49,7 @@ nav ul {
 #clear{
     background: transparent;
 border: solid 1px white;
+color: #7474c1;
 
 }
 .navbtn {
@@ -115,6 +117,9 @@ border: solid 1px white;
   border: none;
   text-transform: uppercase;
 }
+.btn5{
+    margin: 3% 0 0 0;
+}
 .btn:hover {
   cursor: pointer;
   color: #7474c1;
@@ -169,12 +174,32 @@ border: solid 1px white;
   width: 50%;
   height: 65vh;
    display: flex;
-   flex-direction: column;
+   /* flex-direction: column; */
   justify-content: center;
   align-items: flex-end;
 }
+.img1-content{
+      margin: 0 0 5% 0;
+       display: flex;
+   flex-direction: column;
+   align-items: center;
+  justify-content: center;
+}
+.img2-content{
+      margin: 0 0 5% 0;    
+       display: flex;
+   flex-direction: column;
+   align-items: center;
+  justify-content: center;
+}
+.img1 h3{
+    margin: 0 0 5% 0;
+    font-size: 22px;
+    font-weight: bold;
+}
 .img1 a {
-    color: white
+    color: white;
+    text-decoration: none;
 }
 .img2 {
   background: url("https://monimymonidotcomprdsa.blob.core.windows.net/sitefinity/images/default-source/nest-landing/image-nest-product.jpg?sfvrsn=c180e3e6_2");
@@ -187,12 +212,23 @@ border: solid 1px white;
   justify-content: center;
   align-items: flex-end;
 }
+.img2 h3{
+    margin: 0 0 5% 0;
+    color: #7f888e;
+    font-size: 22px;
+    font-weight: bold;
+}
 .img2 a{
-    color: black;
+    color: #7f888e;    
+    text-decoration: none;
+    
 }
 .midsection {
   background: #7474c1;
-  height: 4.2em;
+  color: white;
+  font-size: 33px;
+  font-family: sans-serif;
+  height: 2.2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -205,10 +241,29 @@ border: solid 1px white;
   align-items: center;
 }
 .part1 {
+    position: absolute;    
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.part1 h1{
+    color:#7474c1;
+    margin: 7% 0 3% 0;
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: 500;
+    max-width: 500px;
+    text-align: center;
+    /* line-height: 32px; */
+}
+.part1 p{
+    color: #7f888e;
+    font-family: sans-serif;    
+    font-size: 18px;
+    max-width: 530px;
+    line-height: 22px;
+    text-align: center;    
 }
 .part2 {
   margin: 10% 0 0 0;
@@ -219,7 +274,13 @@ border: solid 1px white;
   max-width: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    color: #7f888e;
+font-size: 18px;  
 }
+
 .list {
   width: 100%;
   height: 30vh;
@@ -236,18 +297,37 @@ border: solid 1px white;
 .icon {
   height: 70px;
   width: 100px;
+  margin: 0 0 5% 0;
 }
 .midsection2 {
   background: #c7c7e6;
-  height: 7.2em;
+  font-size: 20px;
+  height: 6.2em;
+  color: #7474c1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.midsection2 p{
+    max-width: 800px;
+    line-height: 22px;
+}
+.bold{
+    font-weight: bold;
+}
 .section5 {
+    color: #7f888e;    
   background: #f1f1f1;
   height: 25vh;
-  font-size: 14px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section5 p{
+      margin: 0 5%;
+
 }
 footer {
   background: #a8a8a8;
