@@ -1,3 +1,4 @@
+/* @media only screen  and (min-width : 1224px) */
 body {
   height: 300vh;
 }
@@ -332,4 +333,86 @@ font-size: 18px;
 footer {
   background: #a8a8a8;
   height: 45vh;
+}
+@media only screen and (max-width: 768px) {
+  .landing video, .nav-list {
+    display: none;
+    /* top: 70%;
+    position: absolute; */
+
+  }
+  .landing{
+  background-position: center center;
+    background-image: url("./assets/new-hero-nest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+  .overlay{
+    position: absolute;
+    background: grey;
+    top: 80%;
+  }
+  .section2{
+    margin: 142% 0 0 0;
+  }
+  .big-text{
+    font-size: 35px;
+      line-height: 43px;
+  text-align: center;
+  max-width: 80vw;
+  margin: -15% 0 20px 0;
+  }
+  .small-text {
+  text-align: center;
+  margin: 0 0 20px 0;
+  
+}
+#sub-text {
+  /* position: absolute; */
+  font-size: 18px;
+  max-width: 80vw;
+  top: 35%;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  line-height: 28.5;
+  top: 45%;
+  display: flex;
+  width: 100vw;
+  margin: 0 0 40px 0 ;
+}
+.btn {
+  margin: 0 30px 10px 30px;
+  font-size: 17px;
+  
+  background: #a4d65e;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 50px;
+  border: none;
+  text-transform: uppercase;
+}
+  .special{
+    z-index: 2;
+    position: absolute;
+    height: 15%;
+    top: 153%;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+}
+#topbtn{
+  width: 45vw;
+  margin-bottom: 15px;
+}
+#bottombtn{
+  width: 50vw;
+}
 }
